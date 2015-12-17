@@ -44,6 +44,7 @@ function messagePop(message){
 
 
 // BUTTON TRIGGERS
+// this sucks - find a better way to bind functions to buttons
 (function(){
 	var ua = navigator.userAgent,isMobile = /Mobile/.test(ua);
 	if(isMobile){
